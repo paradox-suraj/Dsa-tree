@@ -1,8 +1,10 @@
 # DSA Map
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-paradox--dsa--tree.vercel.app-black?style=for-the-badge&logo=vercel)](https://paradox-dsa-tree.vercel.app)
+
 An interactive study map for data structures and algorithms. Instead of a flat problem list, it organises **433 LeetCode problems** into **111 question types** across **21 topics**, and every problem number links straight to LeetCode.
 
-It is a single HTML file with no dependencies: open it from your desktop, use it offline, or host it anywhere, GitHub Pages included.
+It is a single HTML file with no dependencies: open it from your desktop, use it offline, or host it anywhere — live at **[paradox-dsa-tree.vercel.app](https://paradox-dsa-tree.vercel.app)**.
 
 ## Contents
 
@@ -101,7 +103,19 @@ Page numbers: `#p0` is the contents, `#p1` to `#p21` are the topics in the order
 
 To get a paper copy, print the page or save it as a PDF. Every page is included in order, each starting on a new sheet, and the navigation bar is hidden.
 
-## Hosting on GitHub Pages
+## Hosting
+
+### Vercel (current deployment)
+
+The project is deployed at **[paradox-dsa-tree.vercel.app](https://paradox-dsa-tree.vercel.app)** via [Vercel](https://vercel.com). The `vercel.json` at the root rewrites `/` to the HTML file so you don't need to type the file name in the URL.
+
+To redeploy after changes:
+
+```bash
+vercel --prod
+```
+
+### GitHub Pages
 
 1. Push `DSA_tree_pages.html` and this README to a GitHub repository.
 2. Open **Settings → Pages**.
